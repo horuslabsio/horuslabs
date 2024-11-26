@@ -21,7 +21,7 @@
 		currentTheme = currentTheme === "light" ? "dark" : "light";
 		if (container) container.setAttribute("data-theme", currentTheme);
 		document.body.setAttribute("data-theme", currentTheme);
-		document.cookie = `theme=${currentTheme}; path=/; max-age=31536000;`;
+		document.cookie = `theme=${currentTheme}; path=/; max-age=31536000; Secure; SameSite=Lax;`;
 	}
 </script>
 

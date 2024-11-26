@@ -12,8 +12,8 @@
 	<meta name="description" content="Horus labs is a blockchain research and development labs." />
 </svelte:head>
 
-<section id="container" class="transition-all" data-theme={data.theme}>
-	<main class="mx-auto max-w-[1024px] p-8 md:p-32">
+<section id="container" class="text-sm transition-all md:text-base" data-theme={data.theme}>
+	<main class="mx-auto max-w-[1024px] px-4 py-16 md:p-32">
 		<Header theme={data.theme} />
 		<Intro />
 		<Portfolio />

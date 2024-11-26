@@ -1,12 +1,12 @@
 <div class="base-border flex flex-col gap-4 py-16">
-	<h2 class="text-3xl">What we do</h2>
+	<h2>What we do</h2>
 
 	<p>
 		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis voluptates pariatur sunt
 		cumque, reiciendis eligendi neque tempore aperiam tenetur ratione accusamus nihil excepturi
 		obcaecati vero nemo aliquid iusto id delectus.
 	</p>
-	<ul style="padding:0,0,0 40px;" class="flex flex-col gap-3">
+	<ul class="flex flex-col gap-3">
 		<li>
 			Github <a
 				class="underline"

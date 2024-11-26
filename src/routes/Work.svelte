@@ -7,7 +7,7 @@
 </script>
 
 <div class="flex flex-col gap-4">
-	<h3 class="text-2xl">{title}</h3>
+	<h3>{title}</h3>
 	<p>
 		{description}
 		<a
