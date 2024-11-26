@@ -1,0 +1,100 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+:root {
+	--background: #f7f7f7;
+	--foreground: #474747;
+	--accent: #121212;
+	--font-body: Arial, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu,
+		Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+	--font-mono: "Fira Mono", monospace;
+	--color-bg-0: #121212;
+	--color-bg-1: #121212;
+	--color-bg-2: hsl(220, 43%, 1%);
+	--color-theme-1: #ff3e00;
+	--color-theme-2: #4075a6;
+	--color-text: rgba(0, 0, 0, 0.7);
+	--column-width: 42rem;
+	--column-margin-top: 4rem;
+	font-family: var(--font-body);
+	color: var(--color-text);
+}
+
+[data-theme="dark"] {
+	--background: #121212;
+	--foreground: #f5f5f5a0;
+	--accent: #f5f5f5;
+}
+
+[data-theme="light"] {
+	--background: #f7f7f7;
+	--foreground: #474747;
+	--accent: #121212;
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--background: #121212;
+		--foreground: #f5f5f5a0;
+		--accent: #f5f5f5;
+	}
+}
+
+body {
+	font-family: "Inter", serif;
+	font-optical-sizing: auto;
+	font-weight: 400;
+	background-color: var(--background);
+	color: var(--foreground);
+}
+#container {
+	background-color: var(--background);
+	color: var(--foreground);
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	color: var(--accent);
+	font-family: "Inter", serif;
+	font-optical-sizing: auto;
+	font-weight: 600;
+}
+
+h1 {
+	font-size: 3rem /* 48px */;
+	line-height: 1;
+}
+
+h2 {
+	font-size: 1.875rem /* 30px */;
+	line-height: 2.25rem /* 36px */;
+	color: var(--accent);
+}
+h3 {
+	font-size: 1.5rem /* 24px */;
+	line-height: 2rem /* 32px */;
+	color: var(--accent);
+}
+a {
+	color: var(--accent);
+}
+ul {
+	/* margin: 1em 0; */
+	padding: 0px 0 0px 40px;
+}
+
+li {
+	margin: 0;
+	padding: 0em 0em 0em 1em;
+	list-style: disc;
+}
+
+.base-border {
+	border-bottom: 0.5px solid transparent;
+	border-image: linear-gradient(125deg, #398af4 19%, #35e5ce 100%) 1;
+}
