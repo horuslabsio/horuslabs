@@ -9,7 +9,7 @@
 
 <svelte:head>
 	<title>Horus labs</title>
-	<meta name="description" content="Horus labs is a blockchain research and development labs." />
+	<meta name="description" content="Horus labs, a blockchain research and development lab." />
 </svelte:head>
 
 <section id="container" class="text-sm transition-all md:text-base" data-theme={data.theme}>
