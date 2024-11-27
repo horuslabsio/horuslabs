@@ -2,28 +2,22 @@
 	import Work from "./Work.svelte";
 	const PROJECTS = [
 		{
-			title: "Project 1",
-			url: "www.fill-balnk.com",
+			title: "Token bound Accounts (ERC6551/SNIP-14)",
+			url: "https://www.tbaexplorer.com/",
 			description:
-				"A cutting-edge solution that revolutionizes the way we interact with technology. This project aims to streamline workflows and enhance user productivity."
+				"Token bound is a suite of open-source tools that allow developers to easily integrate SNIP-14 accounts into their applications."
 		},
 		{
-			title: "Project 2",
-			url: "www.fill-balnk.com",
+			title: "Coloniz",
+			url: "https://www.coloniz.xyz/",
 			description:
-				"An innovative platform designed to bring together diverse ideas and foster collaboration. This project focuses on community engagement and problem-solving."
+				"Coloniz empowers you to build smart, dynamic communities effortlessly. Create your own colony, define custom rules, and leverage a powerful AI assistant that learns from community discussions to provide personalized support to your colonists."
 		},
 		{
-			title: "Project 3",
-			url: "www.fill-balnk.com",
+			title: "Starknet Scaffold",
+			url: "https://www.starknetscaffold.xyz/",
 			description:
-				"A sophisticated tool that automates mundane tasks, allowing professionals to focus on more creative and impactful work. This project leverages the latest advancements in AI and machine learning."
-		},
-		{
-			title: "Project 3",
-			url: "www.fill-balnk.com",
-			description:
-				"A sophisticated tool that automates mundane tasks, allowing professionals to focus on more creative and impactful work. This project leverages the latest advancements in AI and machine learning."
+				"Starknet Scaffold is a toolkit for building decentralized applications (dapps) on Starknet. It's designed to make it easier for developers to create, deploy smart contracts and build user interfaces that interact with those contracts."
 		}
 	];
 </script>
