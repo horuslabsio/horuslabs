@@ -18,6 +18,11 @@
 			>
 		</li>
 		<li>
+			Youtube <a class="underline" rel="noopener " href="https://www.youtube.com/@horuslabs"
+				>@horuslabs</a
+			>
+		</li>
+		<li>
 			Find us on x <a class="underline" rel="noopener " href="https://x.com/horuslabsio"
 				>@horuslabsio</a
 			>

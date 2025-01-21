@@ -1,0 +1,52 @@
+BEGIN:VCALENDAR
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:REQUEST
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+X-LIC-LOCATION:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:GMT+2
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:GMT+1
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Berlin:20241204T163000
+DTEND;TZID=Europe/Berlin:20241204T170000
+DTSTAMP:20241202T203427Z
+ORGANIZER;CN=Sofia Sukhinina:mailto:sofia@onlydust.xyz
+UID:1tkq9c986o7rpnf3o68m7sagfp@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=stephanieegbuonu@gmail.com;X-NUM-GUESTS=0:mailto:stephanieegbuonu@g
+ mail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;RSVP=TRUE
+ ;CN=Sofia Sukhinina;X-NUM-GUESTS=0:mailto:sofia@onlydust.xyz
+X-GOOGLE-CONFERENCE:https://meet.google.com/dwi-gxeu-umw
+X-MICROSOFT-CDO-OWNERAPPTID:-573393916
+CREATED:20241202T203425Z
+DESCRIPTION:-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~::~:~::-\nJoin with Google Meet: https://meet.google.com/dw
+ i-gxeu-umw\nOr dial: (DE) +49 40 8081618173 PIN: 752994002#\nMore phone num
+ bers: https://tel.meet/dwi-gxeu-umw?pin=7095226579545&hs=7\n\nLearn more ab
+ out Meet at: https://support.google.com/a/users/answer/9282720\n\nPlease do
+  not edit this section.\n-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:
+ ~:~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-
+LAST-MODIFIED:20241202T203425Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Stephanie <> Sofia / OnlyDust
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR

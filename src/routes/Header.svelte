@@ -25,13 +25,11 @@
 	}
 </script>
 
-<header class="base-border flex items-center justify-between pb-8">
-	<h1 class="">Horus labs</h1>
-
-	<div>
+<header class="base-border">
+	<div class="mb-16 flex justify-end">
 		<button on:click={toggleTheme} class="relative flex h-12 w-12 items-center justify-center">
 			<span
-				class="absolute opacity-0 transition-opacity"
+				class="absolute text-2xl opacity-0 transition-opacity"
 				class:opacity-100={currentTheme === "light"}
 				class:opacity-0={currentTheme === "dark"}
 			>
@@ -39,12 +37,18 @@
 			</span>
 
 			<span
-				class="absolute opacity-0 transition-opacity"
+				class="absolute text-2xl opacity-0 transition-opacity"
 				class:opacity-100={currentTheme === "dark"}
 				class:opacity-0={currentTheme === "light"}
 			>
 				<MoonIcon />
 			</span>
 		</button>
+	</div>
+	<div class="flex items-center justify-between pb-8">
+		<h1 class="">Horus labs</h1>
+		<a class="text-xl" target="_blank" rel="noopener noreferrer" href="https://blog.horuslabs.co/"
+			>Blog</a
+		>
 	</div>
 </header>
