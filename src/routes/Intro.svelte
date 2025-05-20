@@ -2,9 +2,9 @@
 	<h2>Who we are</h2>
 
 	<p>
-		Horus Labs is a blockchain research and development lab focused on building global products from
-		within Africa. Founded in April, 2024, we are committed towards developing user-friendly web3
-		products with exceptional UX, bridging the gap between the on-chain ecosystem and the masses.
+		Horus Labs is a research and development lab on a mission to build world-class products from within Africa. 
+		Founded in April, 2024, we believe that great builders can come from anywhere. 
+		We seek out ambitious talents with the hunger to grow and the drive to thrive, giving them the tools and opportunities needed to build the future.
 	</p>
 	<ul class="flex flex-col gap-3">
 		<li>
