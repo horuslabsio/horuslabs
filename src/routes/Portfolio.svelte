@@ -5,7 +5,7 @@
 			title: "Token bound Accounts (ERC6551/SNIP-14)",
 			url: "https://www.tbaexplorer.com/",
 			description:
-				"Token bound is a suite of open-source tools that allow developers to easily integrate SNIP-14 accounts into their applications."
+				"Token bound is a suite of open-source tools that allow developers to easily integrate ERC6551/SNIP-14 accounts into their applications."
 		},
 		{
 			title: "Coloniz",
@@ -18,6 +18,12 @@
 			url: "https://www.starknetscaffold.xyz/",
 			description:
 				"Starknet Scaffold is a toolkit for building decentralized applications (dapps) on Starknet. It's designed to make it easier for developers to create, deploy smart contracts and build user interfaces that interact with those contracts."
+		},
+		{
+			title: "Irys x Starknet",
+			url: "https://blog.horuslabs.co/irys-is-now-on-starknet/",
+			description:
+				"Recognizing the need for a robust data storage solution on Starknet, we took the initiative to collaborate with the Irys team to bring Irys to Starknet, unlocking new possibilities for developers and users alike."
 		}
 	];
 </script>
