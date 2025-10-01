@@ -10,6 +10,25 @@
 <svelte:head>
 	<title>Horus labs</title>
 	<meta name="description" content="Horus labs, a blockchain research and development lab." />
+	<meta property="og:title" content="Horus Labs" />
+	<meta
+		property="og:description"
+		content="Horus labs, a blockchain research and development lab."
+	/>
+	<meta property="og:url" content="https://www.horuslabs.co/" />
+	<meta property="og:site_name" content="Horus Labs" />
+	<meta property="og:type" content="website" />
+	<meta property="og:image" content="./opengraph.png" />
+
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta property="twitter:domain" content="www.horuslabs.co" />
+	<meta property="twitter:url" content="https://www.horuslabs.co/" />
+	<meta name="twitter:title" content="Horus Labs" />
+	<meta
+		name="twitter:description"
+		content="Horus labs, a blockchain research and development lab."
+	/>
+	<meta name="twitter:image" content="./opengraph.png" />
 </svelte:head>
 
 <section id="container" class="text-sm transition-all md:text-base" data-theme={data.theme}>
