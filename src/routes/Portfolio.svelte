@@ -2,6 +2,18 @@
 	import Work from "./Work.svelte";
 	const PROJECTS = [
 		{
+			title: "Chainrails (coming soon)",
+			url: "https://chainrails.io/",
+			description:
+				"A developer-first payments SDK that lets apps accept funds from any chain or fiat rail and settle seamlessly in their chosen asset."
+		},
+		{
+			title: "Glance",
+			url: "https://www.glnc.me/",
+			description:
+				"A beautiful, exquisite card for creators and builders to tell their story, share their work and own their audience!."
+		},
+		{
 			title: "Token bound Accounts (ERC6551/SNIP-14)",
 			url: "https://www.tbaexplorer.com/",
 			description:
